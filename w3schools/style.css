@@ -1,0 +1,39 @@
+h2 {
+    color:blue;
+    font-family:verdana;
+    font-size:300%;
+}
+pre  {
+    color:red;
+    font-family:courier;
+    font-size:160%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+}
+
+th,td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+#p01 {
+	color:purple;
+}
+
+.c01 {
+	color:cyan
+}
+
+#next {
+	font-size:800%;
+}

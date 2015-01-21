@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p id="javascriptdemo"></p>
+
+<script>
+document.getElementById("javascriptdemo").innerHTML = "Hello JavaScript!";
+function myFunction() {
+	document.getElementById("javascriptdemo").style.fontSize = "25px";
+}
+</script>
+<noscript>
+	no script allowed
+</noscript>
+
+<button type="button" onclick="myFunction()">Click</button>
+<p> dont' omit &lt;html&gt; and &lt;body&gt; although these are not necessary
+<br> put any of these before body. &lt;title&gt;, &lt;style&gt;, &lt;link&gt;, &lt;meta&gt;, &lt;script&gt;, &lt;base&gt;
+<br> some other character entities include: &cent;,&amp;,&copy;
+<br> most entities don't have name, but the ones that do are specific to their name,
+<br> HTML uses entity number like &#8364; or the number can be represented in hex &#x20AC
+<br> accents are made similarly like a&#768;
+</p>
+</body>
+</html>

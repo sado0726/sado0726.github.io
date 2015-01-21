@@ -1,0 +1,245 @@
+<!DOCTYPE html> <!--DOCTYPE declaration defines the document type-->
+<html lang="en-US">  <!--describes the web document--> <!--Html elements can have attributes and give additional information and are always  specified in the start tag; comes in name/value pairs like: name="value"--> 
+<head> <!-- head contains metadata, which is data about the HTML document-->
+	<title>My First HTML</title>
+	<meta charset="UTF-8">
+	<style>
+		<!--this is the use of internal styling (Internal CSS) -->
+		body {background-color:lightgray}
+		h1   {color:magenta}
+		p    {color:green}
+		a:link    {color:#000000; background-color:transparent}
+		a:visited {color:#000000; background-color:transparent}
+		a:hover   {color:#ff0000; background-color:transparent}
+		a:active  {color:#ff0000; background-color:transparent}
+	</style>
+	<!-- this is the use of external styling (External CSS) -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>	<!--describes the visible page content-->
+<!-- Use id to address single elements. Use class to address groups of elements. -->
+<h1>My First Heading</h1>	<!--describes a heading, Don't use headings to make text BIG or bold-->
+	&lt;meta&gt; carries the character set used for the HTML, and UTF-8 character set carries
+	most of the characters used in the world
+<h2>My Second Heading</h2>
+<h3 id="p01">My Third Heading</h3>
+<h4 id="p01">My Fourth Heading</h4>
+<h5 class="c01">My Fifth Heading</h5>
+<h6 class="c01">My Sixth Heading</h6>
+<h1><a href="http://www.google.com">This is a link and a header</a></h1>
+<a href="http://www.google.com">This is a link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+<p title="About 'fun' W3Schools">
+
+<a href="simplified.html">javascript and simplified version more notes on this page</a><br>
+<a href="#london">Go on a trip</a><br>
+<a href="#comment">comment section</a><br>
+<a href="#table">table section</a><br>
+<a href="color.html">color page</a><br>
+<a href="URL.html">more about url</a><br>
+W3Schools is a web developer's site.
+It provides tutorials and references covering
+many aspects of web programming,
+including HTML, CSS, JavaScript, XML, SQL, PHP, ASP, etc.
+</p>	<!--describes paragraph-->
+<hr>
+<p style="text-align:center">
+another paragraph
+</p>
+<pre style="font-family:arial">
+
+roses are red
+
+violets are blue
+
+you look nice
+
+and your dress too
+	
+</pre>
+<p style="background-color:grey">
+this is the use of Inline styling (inline CSS)
+this is <b style="color:red">bold</b><br>
+this is <em>emphsized</em><br>
+this is <i>italicized</i><br>
+this is <small>small</small><br>
+this is <strong>strong</strong><br>
+this is <sub>subscripted</sub><br>
+this is <sup>superscripted</sup><br>
+this is <ins>inserted or underlined</ins><br>
+this is <del>deleted or line across</del><br>
+this is <mark>marked or highlighted</mark><br>
+this is <dfn>italic</dfn>
+this is also <cite>italic</cite>
+</p>
+<br>
+<p> see this:<bdo dir='rtl'> <q>what is this?</q></bdo><abbr title='how our world'>HOW</abbr></p>
+<address>
+Written by <a href="mailto:dosadodobird0726@gmail.com">Sado Do</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p>
+
+block quote <img src="images/smiley.gif" alt="Smiley face" style="width:42px;height:42px"> would put itself indented
+<blockquote>
+What is this?
+where is this?
+why is this?
+which is this?
+who is this?
+</blockquote>
+but it doesn't seem to come back to paragraph....
+my theory is that if it has its own font, spacing, and position already set up,
+p can't be used....
+</p>
+<br>
+<pre style="font-family:arial"><p>
+Normally, HTML uses variable letter size, and variable letter spacing.
+This is not wanted when displaying examples of computer code.
+The kb, samp, code elements are fixed letter size and spacing
+</p>
+<code>this is code</code>
+<kbd>this is kbd</kbd>
+<samp>this is samp</samp>
+<var>this is var</var>
+</pre>
+<img src="images/polarbear.jpg" alt="polarbear" width="705" height="399">
+<img src="images/Photo0147.jpg" alt="music" style="width:128px;height:128px">
+<img src="images/planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="images/sun.gif" target="_blank">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="images/merglobe.gif" target="_blank">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="images/venglobe.gif" target="_blank">
+</map>
+<br>
+<div style="color:red">this is a block element, but this block element has a <span style="color:blue">span element</span> in it</div> 
+
+<pre id="comment">
+ 
+*attributes often used:
+
+	alt:	Specifies an alternative text for an image
+	disabled:	Specifies that an input element should be disabled
+	href:	Specifies the URL (web address) for a link
+	id:	Specifies a unique id for an element
+	src:	Specifies the URL (web address) for an image
+	style:	Specifies an inline CSS style for an element
+	title:	Specifies extra information about an element (displayed as a tool tip)
+	value:	Specifies the value (text content) for an input element.
+
+*things inside the angle brackets are called tagname
+
+*target attribute description (for the < a > tagname)
+
+	_blank	Opens the linked document in a new window or tab
+	_self	Opens the linked document in the same frame as it was clicked (this is default)
+	_parent	Opens the linked document in the parent frame
+	_top	Opens the linked document in the full body of the window
+	
+*Always specify image size. If the size is unknown, the page will flicker while the image loads.
+*In images, the alt attribute is required
+
+*must use border-collapse attribute in order to have only one border surrounding the table	
+*If the table has collapsed borders, border-spacing has no effect.
+
+*use style:"list-style-type:[circle,square,none]" for unordered list
+*use attribute type=[1,A,a,I,i] for ordered list
+
+*Block level elements normally start (and end) with a new line, when displayed in a browser.
+
+	Examples: < h1 >, < p >, < ul >, < table >
+
+*Inline elements are normally displayed without line breaks.
+
+	Examples: < b >, < td >, < a >, < img >
+
+* The < div > element is often used as a layout tool, because it can easily be positioned with CSS.
+	use <a href="images/img_sem_elements.gif">this</a> page for better understanding
+
+*RWD stands for Responsive Web Design
+*RWD can deliver web pages in variable sizes
+*RWD is a must for tablets and mobile devices
+*make your own or use bootstrap.
+	
+	
+</pre>
+<h1>table</h1>
+<br>
+<table id="table" style="width:100%">
+  <caption>Bowling points</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>555 77 854</td>
+    <td>555 77 855</td>
+  </tr>
+</table>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>First Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>555 77 854</td>
+  </tr>
+  <tr>
+    <td>555 77 855</td>
+  </tr>
+</table>
+<br>
+<h1>unordered list</h1>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<br>
+<h1>ordered list</h1>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea
+  <li>Milk</li>
+</ol>
+<h1>description list</h1>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<br>
+<a href="http://www.google.com"><img src="images/w3schools.jpg", alt="W3Schools.com" width="104" height="142"></a><br>
+
+press <span id="next"><a href="form.html">next</a></span> to fill out a form!
+
+<iframe src="http://www.w3schools.com" frameborder="0" name="dm"></iframe>
+<p id="london"><a href="london.html" target="dm">london.html</a></p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<title>form-example</title>
+
+<body>
+<p>
+main element for form is input. <br>
+input has type attributes: text, password, radio, submit, number, checkbox, button
+input has type attributes: color, date, datetime, datetime-local, email, month, number
+input has type attributes: search, tel, time, url, week
+Use fieldset element to group related question/data in a form, 
+and legend element is used as caption for those group.<br>
+</p>
+<p>
+action attribute in form defines when the form is submitted
+method attribute depending on GET and POST, GET=not really sensitive info
+POST=senstive information (like password)
+each input must have name attribute to be submitted correctly
+&lt;select&gt; element have &lt;option&gt; elements inside
+option element can be first chosen at first with selected
+&lt;textarea&gt; is a text area
+&lt;button&gt; is a button
+&lt;datalist&gt; datalist should have the same id as list attribute of &lt;input&gt; 
+&lt;keygen&gt; two keys are generated, a private key (store locally) and a public key (sent to server)
+&lt;output&gt; uses oninput attribute in form is added with javascript, for="a b" 
+</p>
+<p>
+attributes for form:<br>
+    accept-charset - charset being accepted<br>
+	action - address where to submit the form<br>
+	autocomplete - autocomplete the form if needed<br>
+	enctype - <br>
+	method<br>
+	name<br>
+	novalidate<br>
+	target<br>
+</p>
+
+<form>
+	First name:<br>
+	<input type="text" name="firstname">
+	<br>
+	Last name:<br>
+	<input type="text" name="lastname">
+</form>
+
+</body>
+</html>
